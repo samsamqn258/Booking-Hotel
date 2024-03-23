@@ -52,18 +52,7 @@
     gap: 15px;
 
     &__sign-in, &__sign-up {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         max-width: 112px;
-        // gap: 1rem;
-        border-radius: 10px;
-        background: #E87F02;
-        white-space: nowrap;
-        padding: 9px 34px;
-        height: 3.6rem;
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: #fff;
+       
     }
 }

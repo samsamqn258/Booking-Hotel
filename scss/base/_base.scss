@@ -7,10 +7,20 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    // font-size: 1.6rem;
     font-family: Inter, sans-serif;
 }
 
 a {
     text-decoration: none !important;
+}
+
+a, img, select, textarea, input, button {
+    outline: none;
+    border: none;
+}
+
+input, textarea {
+    background: transparent;
+    margin: 0;
 }
