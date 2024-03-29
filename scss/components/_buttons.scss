@@ -10,4 +10,16 @@
     font-size: 1.5rem;
     font-weight: 700;
     color: #fff;
+
+    &__rounded {
+        border-radius: 999px;
+    }
+
+    &__outline {
+        border: 1px solid rgba(25, 27, 29, 0.15);
+        background: transparent;
+        color: #4E5358;
+        font-size: 1.6rem;
+        line-height: 175%;
+    }
 }
